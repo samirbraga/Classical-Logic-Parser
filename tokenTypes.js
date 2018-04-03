@@ -1,5 +1,5 @@
-let [NEG, OR, AND, IMPL, IFF] = ['NEG', 'OR', 'AND', 'IMPL', 'IFF'];
+let [ATOM, NEG, OR, AND, IMPL, IFF, EOF] = ['ATOM', 'NEG', 'OR', 'AND', 'IMPL', 'IFF'];
 
 module.exports = {
-    NEG, OR, AND, IMPL, IFF
+    ATOM, NEG, OR, AND, IMPL, IFF
 };
